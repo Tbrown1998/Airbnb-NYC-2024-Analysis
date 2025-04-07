@@ -268,6 +268,7 @@ Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst with strong skills in Python, SQ
 - 🌐 : [My Portfolio](https://www.datascienceportfol.io/oluwabolaji60) 
 - 𝕏 : [Twitter/X](https://x.com/thee_oluwatosin?s=21&t=EqoeQVdQd038wlSUzAtQzw)
 - 🔗 : [Medium](https://medium.com/@oluwabolaji60)
+- 🔗 : [View My Repositories](https://github.com/Tbrown1998?tab=repositories)
 
 
 
