@@ -61,6 +61,17 @@ The dataset is sourced from [Inside Airbnb](http://insideairbnb.com/), which pro
 
 ---
 
+## Data Processing Pipeline
+
+```mermaid
+graph TD
+    A[Raw Data] --> B[Load Data]
+    B --> C[Python Cleaning]
+    C --> D[Data Exploration]
+    D --> E[Key Insights & Findings]
+```
+---
+
 ### Steps Taken In The Project
 - Importing all Libraries & dependenices
 - Load datasets
