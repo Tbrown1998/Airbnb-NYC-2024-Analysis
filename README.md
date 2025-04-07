@@ -174,8 +174,8 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/d943a6ec-238b-445d-929f-cba55bcfbde0)
 
 ```python
-
 #Yearly Availability Distribuition
+
 plt.figure(figsize=(6, 3))
 sns.histplot(data=df, x='availability_365')
 plt.title('Yearly Availability Distribuition')
@@ -189,6 +189,7 @@ One variable depenency in another variable
 
 ```python
 # price dependency on neighbourhood
+
 sns.barplot(data=df, x='neighbourhood_group', y='price', hue='room_type')
 plt.legend(loc='upper right')
 ```
@@ -196,6 +197,7 @@ plt.legend(loc='upper right')
 
 ```python
 # number of reviews and price relationship
+
 plt.figure(figsize=(8, 5))
 plt.title("Locality and Review Dependency")
 sns.scatterplot(data=df, x='number_of_reviews', y='price', hue='neighbourhood_group')
@@ -205,6 +207,7 @@ plt.show()
 
 ```python
 #Geographical Distribution of AirBnb Listing
+
 plt.figure(figsize=(10, 7))
 sns.scatterplot(data=df, x='longitude', y='latitude', hue='room_type')
 plt.title("Geographical Distribution of AirBnb Listing")
@@ -214,6 +217,7 @@ plt.show()
 
 ```python
 #pairwise relationships between multiple numerical features in your dataset
+
 #Detect relationships between multiple variables
 
 sns.pairplot(data=df, vars=['price', 'minimum_nights', 'number_of_reviews', 'availability_365'], hue='room_type');
@@ -223,6 +227,7 @@ sns.pairplot(data=df, vars=['price', 'minimum_nights', 'number_of_reviews', 'ava
 
 ```python
 # heat map - correlation of one variable with others for numerical column
+
 corr = df[['latitude', 'longitude', 'price', 'minimum_nights', 'number_of_reviews', 'reviews_per_month', 'availability_365', 'beds']].corr()
 corr
 plt.figure(figsize=(8, 6))
@@ -232,7 +237,7 @@ sns.heatmap(data=corr, annot=True);
 
 --- 
 
-## 📝 Conclusions & Recommendations
+## 📝 Key Findings, Conclusions & Recommendations
   1. Manhattan is the most expensive and saturated borough for Airbnb listings.
   2. Private rooms in Brooklyn provide more affordable alternatives.
   3. Some listings remain inactive (availability = 0), which may need cleanup.
