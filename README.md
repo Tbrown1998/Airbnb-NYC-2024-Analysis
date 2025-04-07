@@ -1,5 +1,5 @@
 
-# 🏠 Airbnb NYC 2024 – Exploratory Data Analysis With Python
+# 💡 Exploring NYC's Airbnb Market (2024) Through Data – A Python EDA Project
 
 ![airbnb_guide](https://github.com/user-attachments/assets/3f6fac1d-fe65-4976-a55f-ba8047e16ff8)
 
