@@ -4,8 +4,8 @@
 ![airbnb_guide](https://github.com/user-attachments/assets/3f6fac1d-fe65-4976-a55f-ba8047e16ff8)
 
 
-This project focuses on performing an in-depth **Exploratory Data Analysis (EDA)** on Airbnb listings data for New York City. The goal is to extract insights from the data related to pricing, availability, and listing types, using Python and powerful data analysis libraries. 
-The analysis includes univariate and bivariate insights, feature engineering, and data visualization to better understand market behavior and trends.
+This project focuses on performing an in-depth **Exploratory Data Analysis (EDA)** on Airbnb listings data for New York City. The goal is to extract insights from the data related to pricing, availability, and listing types, using **Python** and powerful data analysis libraries. 
+The analysis includes **univariate** and **bivariate** insights, **feature engineering**, and **data visualization** to better understand market behavior and trends.
 
 ---
 
@@ -18,13 +18,9 @@ This project analyzes Airbnb listings in New York for 2024 to:
 - Visualize spatial and statistical relationships between variables  
 - Aid stakeholders (hosts, travelers, and investors) in making data-driven decisions  
 
----
+### How can Airbnb hosts, guests, and the company better understand the dynamics of short-term rentals in New York City?
 
-## 🧠 Business Problem
-
-**How can Airbnb hosts, guests, and the company better understand the dynamics of short-term rentals in New York City?**
-
-More specifically:
+**More specifically:**
 
 - Which boroughs have the highest/lowest average prices?  
 - What types of listings are more common and affordable?  
@@ -44,14 +40,14 @@ The expected outcome of this Project is to:
 
 ---
 
-## 🧰 Tools & Technologies
-
+## 🧰 Tools Stack
 - **Python**  
   - `pandas`, `numpy` – Data Cleaning, Data manipulation  
-  - `matplotlib`, `seaborn` – Data visualization  
-- **Jupyter Notebook** – For interactive development  
+  - `matplotlib`, `seaborn` – Data visualization
+  -  ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0.0-150458?logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.0-blue?logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.0-black?logo=python&logoColor=white) 
+- **Jupyter Notebook** – For interactive development
+- ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 - **Git & GitHub** – Version control and project showcase
-- ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0.0-150458?logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.0-blue?logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.0-black?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 
 ---
 
@@ -150,7 +146,7 @@ data.dtypes
 data['host_id'] = data['host_id'].astype(object)
 data.dtypes
 ```
-### 🧮 Exploratory Data Analysis
+## 🧮  Exploratory Data Analysis (EDA)
 #### Feature Engineering
 ```python
 # Adding a Price per bed column
@@ -164,7 +160,7 @@ df.groupby(by='neighbourhood_group')['price'].mean()
 df.groupby(by='neighbourhood_group')['price per bed'].mean()
 ```
 
-#### Univariate Analysis
+### Univariate Analysis
 ```python
 # idenfying outliers in price
 
@@ -196,8 +192,7 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/2a3226ab-dbce-469d-b0e8-091cfdde53d1)
 
-#### Bi Variable Analysis
-One variable depenency in another variable
+### Bi Variable Analysis (One variable depenency in another variable)
 
 ```python
 # price dependency on neighbourhood
@@ -249,6 +244,17 @@ sns.heatmap(data=corr, annot=True);
 
 --- 
 
+![Screenshot (125)](https://github.com/user-attachments/assets/98e8b990-e94c-4138-ab06-16a0f493a239)
+
+![Screenshot (126)](https://github.com/user-attachments/assets/d81b0cc8-aa04-4839-9f64-e7952287c7a3)
+
+![Screenshot (127)](https://github.com/user-attachments/assets/56b0cf95-feeb-4281-8221-14bf47236d6e)
+
+![Screenshot (129)](https://github.com/user-attachments/assets/6adaf103-87ed-443b-bfb0-12df8074c3fe)
+
+
+---
+
 ## 📝 Key Findings, Conclusions & Recommendations
   1. Manhattan is the most expensive and saturated borough for Airbnb listings.
   2. Private rooms in Brooklyn provide more affordable alternatives.
@@ -272,14 +278,15 @@ sns.heatmap(data=corr, annot=True);
 ---
 
 ## 📌 About Me
-Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst with strong skills in Python, SQL, Power BI, and Excel. I turn raw data into actionable insights through automation, data storytelling, and visual analytics.
+Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst with strong skills in Python, SQL, Power BI, and Excel. I turn raw data into actionable insights through automation, data storytelling, and visual analytics. My work is rooted in analytical thinking, strong business acumen, and technical expertise. Whether it's uncovering hidden trends, optimizing workflows, or translating data into compelling stories, I bring clarity and direction to data—helping organizations make smarter, faster decisions.
 
-- **💡 Tools & Tech:** **Python** (Pandas, NumPy, Matplotlib, Seaborn) | **SQL** (MsSQL, Postgree, MySQL) | **Microsoft Power BI** | **Microsoft Excel**
-- **🔹 Key Skills:** Data wrangling, dashboarding, reporting, and process optimization.
-- ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-2.0.0-150458?logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-1.21.0-013243?logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5.0-blue?logo=python&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-0.11.0-black?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-5.5.0-3F4F75?logo=plotly)
-- ![SQL](https://img.shields.io/badge/SQL-Server-red?logo=microsoft-sql-server&logoColor=white) ![MS SQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?logo=microsoft-sql-server&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-- ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black) ![DAX](https://img.shields.io/badge/DAX-F2C811?logo=powerbi&logoColor=black) ![Power Query](https://img.shields.io/badge/Power_Query-F2C811?logo=powerbi&logoColor=black)
-- ![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
+## 💡 Tools & Tech:
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **SQL** (MsSQL, Postgree, MySQL)
+- **Microsoft Power BI**
+- **Microsoft Excel**
+- 🔹 **Key Skills:** Data wrangling, dashboarding, reporting, and process optimization.
+- ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-Server-red?logo=microsoft-sql-server&logoColor=white) ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black) ![Excel](https://img.shields.io/badge/Excel-217346?logo=microsoft-excel&logoColor=white)
 
 
 #### 🚀 **Always learning. Always building. Data-driven to the core.**  
@@ -290,7 +297,7 @@ Hi, I'm Oluwatosin Amosu Bolaji, a Data Analyst with strong skills in Python, SQ
 - 🌐 : [My Portfolio](https://www.datascienceportfol.io/oluwabolaji60) 
 - 𝕏 : [Twitter/X](https://x.com/thee_oluwatosin?s=21&t=EqoeQVdQd038wlSUzAtQzw)
 - 🔗 : [Medium](https://medium.com/@oluwabolaji60)
-- 🔗 : [View My Repositories](https://github.com/Tbrown1998?tab=repositories)
+- 🔗 : [View my Repositories](https://github.com/Tbrown1998?tab=repositories)
 
 
 
