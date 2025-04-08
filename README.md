@@ -7,7 +7,7 @@
 This project focuses on performing an in-depth **Exploratory Data Analysis (EDA)** on Airbnb listings data for New York City. The goal is to extract insights from the data related to pricing, availability, and listing types, using **Python** and powerful data analysis libraries. 
 The analysis includes **univariate** and **bivariate** insights, **feature engineering**, and **data visualization** to better understand market behavior and trends.
 
----
+--- 
 
 ## 📌 Project Overview
 
