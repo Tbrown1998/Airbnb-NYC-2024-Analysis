@@ -1,11 +1,12 @@
 
-# 💡 Exploring NYC's Airbnb Market (2024) Through Data – A Python EDA Project
+# 💡 Exploring NYC's 2024 Airbnb Market Through Data – A Python EDA Project
 
 ![airbnb_guide](https://github.com/user-attachments/assets/3f6fac1d-fe65-4976-a55f-ba8047e16ff8)
 
 
-This project focuses on performing an in-depth **Exploratory Data Analysis (EDA)** on Airbnb listings data for New York City. The goal is to extract insights from the data related to pricing, availability, and listing types, using **Python** and powerful data analysis libraries. 
-The analysis includes **univariate** and **bivariate** insights, **feature engineering**, and **data visualization** to better understand market behavior and trends.
+This project focuses on performing an in-depth **Exploratory Data Analysis (EDA)** on Airbnb listings data for New York City. 
+- The goal is to extract insights from the data related to pricing, availability, and listing types, using **Python** and powerful data analysis libraries.
+- This analysis includes **univariate** and **bivariate** insights, **feature engineering**, and **data visualization** to better understand market behavior and trends.
 
 --- 
 
@@ -243,6 +244,8 @@ sns.heatmap(data=corr, annot=True);
 ![image](https://github.com/user-attachments/assets/918d20bd-950b-4575-846f-591e31d8930f)
 
 --- 
+
+### Desktop Screenshots
 
 ![Screenshot (125)](https://github.com/user-attachments/assets/98e8b990-e94c-4138-ab06-16a0f493a239)
 
